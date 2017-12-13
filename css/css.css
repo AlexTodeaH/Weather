@@ -1,0 +1,141 @@
+*{
+	margin:0 auto;
+	text-align:left;
+	font-family: Trebuchet MS;
+}
+
+
+h1 {
+	margin-left: 2.5em;
+	margin-top:0.15em;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 6em;
+}
+
+p{
+	font-size:3em;
+	color:white;
+}
+
+table {
+width:100%;
+border: 6px solid #8B85C1;
+height: 100vh;
+}
+
+td a {
+	font-size: 3em;
+	text-decoration: none;
+	font-weight: bold; 
+	color:#000000;
+}
+
+th {
+	border-bottom: 3px solid #8B85C1;
+	background-color: #680A0A;
+	color:white;
+	padding: 0.3em;
+	padding-top:0.5em;
+	padding-bottom: 0.5em;
+}
+
+td {
+	padding-top:3em;
+	padding-bottom: 3em;
+	text-align: center;
+}
+
+tr{
+	padding-top:13%;
+}
+
+th img {
+	float:left;
+	width:8em;
+	height:8em;
+	margin-left:2em;
+}
+
+
+tr:nth-child(odd) {
+    background-color:#D0D7E2;
+}
+tr:nth-child(even) {
+    background-color:#E0E1E2;
+}
+
+#dia{
+
+	background-image: url("../img/Autum.jpg");
+	background-size: cover;
+	height:100vh;
+	border: 3px solid #8B85C1;
+}
+
+#cabecera{
+	border-bottom: 3px solid #8B85C1;
+	font-size: 5em;
+	background-color: #680A0A;
+	color:white;
+	height: 9%;
+	padding: 2%;
+}
+
+
+#cabecera p {
+	margin-left: 2.5em;
+	margin-top:0.15em;
+}
+
+
+#cabecera img {
+	width:15%;
+}
+
+#pA {
+	background-color: rgba(122, 122, 122, 0.7);
+	width:80%;
+	margin-top:10%;
+	padding: 5%;
+}
+
+#pI {
+	width:30%;
+	display: inline-block;
+}
+
+.max {
+	text-align: center;
+	font-size: 6em;
+}
+
+.min {
+	text-align: center;
+	font-size: 4em;
+}
+
+#pD {
+	width:20em;
+	display: inline-block;
+	text-align: center;
+	padding-left: 22%;
+}
+
+#pD p{
+	text-align: center;
+}
+
+.imgTiempo {
+	width: 80%;
+}
+
+#pB {
+	width:40em;
+	margin-top: 30%;
+	background-color: rgba(122, 122, 122, 0.7);
+	padding: 5%;
+}
+
+
+
