@@ -10,22 +10,22 @@ h1 {
 	margin-top:0.15em;
 	font-family: Arial;
 	font-weight: bold;
-	font-size: 6em;
+	font-size: 3em;
 }
 
 p{
-	font-size:3em;
+	font-size:1.3em;
 	color:white;
 }
 
 table {
 width:100%;
-border: 6px solid #8B85C1;
+border: 4px solid #8B85C1;
 height: 100vh;
 }
 
 td a {
-	font-size: 3em;
+	font-size: 1.3em;
 	text-decoration: none;
 	font-weight: bold; 
 	color:#000000;
@@ -41,20 +41,17 @@ th {
 }
 
 td {
-	padding-top:3em;
-	padding-bottom: 3em;
+	padding-top:1em;
+	padding-bottom: 1em;
 	text-align: center;
 }
 
-tr{
-	padding-top:13%;
-}
 
 th img {
 	float:left;
-	width:8em;
-	height:8em;
-	margin-left:2em;
+	width:4em;
+	height:4em;
+	margin-left:0.5em;
 }
 
 
@@ -67,7 +64,6 @@ tr:nth-child(even) {
 
 #dia{
 
-	background-image: url("../img/Fall.jpg");
 	background-size: cover;
 	height:100vh;
 	border: 3px solid #8B85C1;
@@ -75,7 +71,6 @@ tr:nth-child(even) {
 
 #cabecera{
 	border-bottom: 3px solid #8B85C1;
-	font-size: 5em;
 	background-color: #680A0A;
 	color:white;
 	height: 9%;
@@ -90,6 +85,7 @@ tr:nth-child(even) {
 
 
 #cabecera img {
+	margin-top: 3%;
 	width:15%;
 }
 
@@ -107,16 +103,15 @@ tr:nth-child(even) {
 
 .max {
 	text-align: center;
-	font-size: 6em;
+	font-size: 2em;
 }
 
 .min {
 	text-align: center;
-	font-size: 4em;
+	font-size: 1.5em;
 }
 
 #pD {
-	width:20em;
 	display: inline-block;
 	text-align: center;
 	padding-left: 22%;
@@ -127,11 +122,11 @@ tr:nth-child(even) {
 }
 
 .imgTiempo {
-	width: 80%;
+	width: 6em;
 }
 
 #pB {
-	width:40em;
+	width:80%;
 	margin-top: 30%;
 	background-color: rgba(122, 122, 122, 0.7);
 	padding: 5%;
